@@ -1,0 +1,21 @@
+.modal {
+    margin: 0 auto;
+    width: 500px;
+    background: #000;
+    color: #fff;
+    position: fixed;
+    top: -1000px;
+    right: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.modal_active {
+    position: fixed;
+    top: 0;
+}
+
+.btn, #close_btn {
+    padding: 10px;
+    font-size: 16px;
+}
