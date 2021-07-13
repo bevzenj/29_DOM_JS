@@ -4,10 +4,10 @@ document.addEventListener('DOMContentLoaded', () => {
     let closeBtn = document.getElementById('close_btn');
 
     openBtn.onclick = function () {
-        modal.classList.add('modal_active');
+        modal[0].classList.add('modal_active');
     }
 
     closeBtn.onclick = function () {
-        modal.classList.remove('modal_active');
+        modal[0].classList.remove('modal_active');
     }
 })
