@@ -8,11 +8,13 @@
     right: 0;
     left: 0;
     z-index: 100;
+    transition: 2s;
 }
 
 .modal_active {
     position: fixed;
     top: 0;
+    transition: 0.5s;
 }
 
 .btn, #close_btn {
